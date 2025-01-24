@@ -1,0 +1,2 @@
+# JavaProjects
+for learning purposes
