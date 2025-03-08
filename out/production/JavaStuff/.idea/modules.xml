@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ClienteleEntrepriseExo/ClienteleEntrepriseExo.iml" filepath="$PROJECT_DIR$/ClienteleEntrepriseExo/ClienteleEntrepriseExo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExodeCours1/ExodeCours1.iml" filepath="$PROJECT_DIR$/ExodeCours1/ExodeCours1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaStuff.iml" filepath="$PROJECT_DIR$/JavaStuff.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TD2Exo1/TD2Exo1.iml" filepath="$PROJECT_DIR$/TD2Exo1/TD2Exo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TD2Exo2/TD2Exo2.iml" filepath="$PROJECT_DIR$/TD2Exo2/TD2Exo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TD2Exo4/TD2Exo4.iml" filepath="$PROJECT_DIR$/TD2Exo4/TD2Exo4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebStuff1/WebStuff1.iml" filepath="$PROJECT_DIR$/WebStuff1/WebStuff1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TD_TP1/ok.iml" filepath="$PROJECT_DIR$/TD_TP1/ok.iml" />
+    </modules>
+  </component>
+</project>
