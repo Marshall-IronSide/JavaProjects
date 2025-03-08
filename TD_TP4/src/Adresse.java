@@ -4,12 +4,12 @@ public class Adresse {
     private int codePostal;
     private String localite;
     public Adresse(int numero, String nomRue, int codePostal, String localite)
-    throws IllegalArgumentException{
+    throws AdresseException{
         if (numero < 0){
-            throw new IllegalArgumentException( "le numéro doit être un entier strictement positif");
+            throw new AdresseException();
         }
         if (codePostal <1000 || codePostal > 4000){
-            throw new IllegalArgumentException("le code postal doit être positif et compris entre 1000 et 4000");
+            throw new AdresseException();
         }
         this.numero = numero;
         this.nomRue = nomRue;
@@ -28,18 +28,18 @@ public class Adresse {
     public String getLocalite() {
         return localite;
     }
-    public void setNumero(int numero) {
+    public void setNumero(int numero) throws AdresseException{
         if (numero < 0){
-            throw new IllegalArgumentException("le numéro doit être un entier strictement positif");
+            throw new AdresseException();
         }
         this.numero = numero;
     }
     public void setNomRue(String nomRue) {
         this.nomRue = nomRue;
     }
-    public void setCodePostal(int codePostal) {
+    public void setCodePostal(int codePostal) throws AdresseException{
         if (codePostal <1000 || codePostal > 4000){
-            throw new IllegalArgumentException("le code postal doit être positif et compris entre 1000 et 4000");
+            throw new AdresseException();
         }
         this.codePostal = codePostal;
     }
